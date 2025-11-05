@@ -1,0 +1,510 @@
+{
+  "app": "YTDLnis_backup",
+  "settings": [
+    {
+      "key": "concurrent_fragments",
+      "type": "Int",
+      "value": "14"
+    },
+    {
+      "key": "skip_updates",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "command_path",
+      "type": "String",
+      "value": "content://com.android.externalstorage.documents/tree/primary%3AMovies"
+    },
+    {
+      "key": "use_cookies",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "youtube_other_extractor_args",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "format_filter",
+      "type": "String",
+      "value": "ALL"
+    },
+    {
+      "key": "use_extra_commands",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "preferred_download_type",
+      "type": "String",
+      "value": "command"
+    },
+    {
+      "key": "filename_templates",
+      "type": "HashSet",
+      "value": "[%(title)s%(uploader)s]"
+    },
+    {
+      "key": "embed_metadata",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "recode_video",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "cache_downloads",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "no_check_certificates",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "format_id_audio",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "file_name_template_audio",
+      "type": "String",
+      "value": "%(title)s%(uploader)s"
+    },
+    {
+      "key": "useragent_header",
+      "type": "String",
+      "value": "Mozilla/5.0 (Linux; Android 12; SM-M025F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/138.0.7204.157 Mobile Safari/537.36"
+    },
+    {
+      "key": "embed_thumbnail",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "playlist_as_album",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "version",
+      "type": "String",
+      "value": "1.8.4"
+    },
+    {
+      "key": "show_terminal",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "swipe_gesture",
+      "type": "HashSet",
+      "value": "[saved, scheduled, queued, templates, cancelled, multipledownloadcard, history, cookies, errored]"
+    },
+    {
+      "key": "proxy",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "retries",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "display_over_apps",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "prefer_container_over_codec_audio",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "crop_thumbnail",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "concurrent_downloads",
+      "type": "Int",
+      "value": "5"
+    },
+    {
+      "key": "write_thumbnail",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "sponsorblock_url",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "search_suggestions",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "write_auto_subtitles",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "fragment_retries",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "swipe_gestures_download_card",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "log_downloads",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "recommendations_home",
+      "type": "String",
+      "value": "newpipe"
+    },
+    {
+      "key": "use_alarm_for_scheduling",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "write_subs_when_embed_subs",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "update_beta",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "high_contrast",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "auto_update_ytdlp",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "no_part",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "youtube_data_fetching_extractor",
+      "type": "String",
+      "value": "NEWPIPE"
+    },
+    {
+      "key": "cache_path",
+      "type": "String",
+      "value": "/storage/emulated/0/Android/data/com.deniscerri.ytdl/files/downloads/"
+    },
+    {
+      "key": "music_path",
+      "type": "String",
+      "value": "/storage/emulated/0/Download/YTDLnis/Audio"
+    },
+    {
+      "key": "use_audio_quality",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "prefer_smaller_formats",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "enable_data_fetching_extra_commands",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "youtube_data_sync_id",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "incognito",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "audio_format",
+      "type": "String",
+      "value": "opus"
+    },
+    {
+      "key": "audio_codec",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "mtime",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "sub_format",
+      "type": "String",
+      "value": "srt"
+    },
+    {
+      "key": "automatic_backup",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "force_keyframes",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "use_scheduler",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "last_used_download_type",
+      "type": "String",
+      "value": "command"
+    },
+    {
+      "key": "add_chapters",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "format_id",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "sponsorblock_filters",
+      "type": "HashSet",
+      "value": "[music_offtopic, selfpromo, preview, sponsor, intro, outro, filler, interaction]"
+    },
+    {
+      "key": "write_description",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "use_format_sorting",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "use_code_color_highlighter",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "video_quality",
+      "type": "String",
+      "value": "1440p_ytdlnisgeneric"
+    },
+    {
+      "key": "spl",
+      "type": "Int",
+      "value": "1"
+    },
+    {
+      "key": "use_app_language_for_metadata",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "keep_cache",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "download_card",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "force_ipv4",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "ytdlnis_theme",
+      "type": "String",
+      "value": "System"
+    },
+    {
+      "key": "aria2",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "update_app",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "locale",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "write_subtitles",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "quick_download",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "modify_download_card",
+      "type": "HashSet",
+      "value": "[container, adjust_video, schedule, author, adjust_templates, title, url, adjust_audio]"
+    },
+    {
+      "key": "cleanup_leftover_downloads",
+      "type": "String",
+      "value": ""
+    },
+    {
+      "key": "restrict_filenames",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "update_formats",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "use_itemurl_instead_playlisturl",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "format_order",
+      "type": "String",
+      "value": "filesize"
+    },
+    {
+      "key": "video_codec",
+      "type": "String",
+      "value": "avc|h264"
+    },
+    {
+      "key": "file_name_template",
+      "type": "String",
+      "value": "%(title)s%(uploader)s"
+    },
+    {
+      "key": "lastCommandTemplateUsed",
+      "type": "String",
+      "value": "-f \"bestvideo[ext\u003dmp4][vcodec^\u003davc1][height\u003c\u003d1440]+bestaudio[ext\u003dm4a]/bestvideo[ext\u003dmp4]+bestaudio/best\" --merge-output-format mp4 --embed-thumbnail --embed-metadata --no-simulate --console-title --progress -o \"%(title)s%(uploader)s\" --default-search \"ytsearch\" --sponsorblock-remove all"
+    },
+    {
+      "key": "show_count_downloads",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "video_path",
+      "type": "String",
+      "value": "/storage/emulated/0/Download/YTDLnis/Video"
+    },
+    {
+      "key": "video_format",
+      "type": "String",
+      "value": "mp4"
+    },
+    {
+      "key": "metered_networks",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "prevent_duplicate_downloads",
+      "type": "String",
+      "value": "url_type"
+    },
+    {
+      "key": "label_visibility",
+      "type": "String",
+      "value": "always"
+    },
+    {
+      "key": "theme_accent",
+      "type": "String",
+      "value": "blue"
+    },
+    {
+      "key": "thumbnail_format",
+      "type": "String",
+      "value": "jpg"
+    },
+    {
+      "key": "formats_source",
+      "type": "String",
+      "value": "yt-dlp"
+    },
+    {
+      "key": "use_sponsorblock",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "embed_subtitles",
+      "type": "Boolean",
+      "value": "true"
+    },
+    {
+      "key": "remember_download_type",
+      "type": "Boolean",
+      "value": "false"
+    },
+    {
+      "key": "search_engine",
+      "type": "String",
+      "value": "ytsearch"
+    }
+  ],
+  "cookies": [
+    {
+      "content": "# Netscape HTTP Cookie File\n# This file is generated by yt-dlp.  Do not edit.\n\n.youtube.com\tTRUE\t/\tTRUE\t1769081472\t__Secure-ROLLOUT_TOKEN\tCKz1iKXrxdbASRDg0dHkppyMAxibsaKqttqOAw%3D%3D\n.youtube.com\tTRUE\t/\tTRUE\t1769081502\tVISITOR_INFO1_LIVE\tFvzYlkVTM5g\n.youtube.com\tTRUE\t/\tTRUE\t1769081502\tVISITOR_PRIVACY_METADATA\tCgJCRBIEGgAgHg%3D%3D\n.youtube.com\tTRUE\t/\tFALSE\t0\tPREF\tf6\u003d40000000\u0026tz\u003dUTC\u0026f7\u003d100\u0026hl\u003den\n.youtube.com\tTRUE\t/\tTRUE\t0\tYSC\tWncvQwbK4IE\n.youtube.com\tTRUE\t/\tTRUE\t1774163800\t__Secure-1PSIDTS\tsidts-CjEB7pHptVtXUcUAWLADUDVT4mG2IZcP7kxQc-U6EJr8OcSmkRZJfofHWVX7vZLvY2s1EAA\n.youtube.com\tTRUE\t/\tTRUE\t1774163800\t__Secure-3PSIDTS\tsidts-CjEB7pHptVtXUcUAWLADUDVT4mG2IZcP7kxQc-U6EJr8OcSmkRZJfofHWVX7vZLvY2s1EAA\n.youtube.com\tTRUE\t/\tFALSE\t1815827464\tHSID\tA7qewh2CpQ0iwOtyN\n.youtube.com\tTRUE\t/\tTRUE\t1815827464\tSSID\tAUE_AxwHT6BAYa8oO\n.youtube.com\tTRUE\t/\tFALSE\t1815827464\tAPISID\tJpedBYOo9Mi7MxHE/AqpmyUYhi6QRu2ClH\n.youtube.com\tTRUE\t/\tTRUE\t1815827464\tSAPISID\tLnpXt8EtTiH-Ou6E/A-1k4RilPYX-tKcKM\n.youtube.com\tTRUE\t/\tTRUE\t1815827464\t__Secure-1PAPISID\tLnpXt8EtTiH-Ou6E/A-1k4RilPYX-tKcKM\n.youtube.com\tTRUE\t/\tTRUE\t1815827464\t__Secure-3PAPISID\tLnpXt8EtTiH-Ou6E/A-1k4RilPYX-tKcKM\n.youtube.com\tTRUE\t/\tFALSE\t1815827464\tSID\tg.a000zQioFZcq7AM1JVrIEggjodSy8oApj7B7ZU2dLaVtyf_C8uGf5FczgK-ItOEfUsrfn2ZYMwACgYKAaESARASFQHGX2MiTcn4k0WxnDXXj4UBnkOObRoVAUF8yKpKBuPiNOS9J16eIzbFrjpp0076\n.youtube.com\tTRUE\t/\tTRUE\t1815827464\t__Secure-1PSID\tg.a000zQioFZcq7AM1JVrIEggjodSy8oApj7B7ZU2dLaVtyf_C8uGfewPLYbgCX0OeHCswo5umyQACgYKAcMSARASFQHGX2Mi_7Xmsqvz0rONYS6UfaSdshoVAUF8yKq85q2Ie2TtnPThrSSuxweZ0076\n.youtube.com\tTRUE\t/\tTRUE\t1815827464\t__Secure-3PSID\tg.a000zQioFZcq7AM1JVrIEggjodSy8oApj7B7ZU2dLaVtyf_C8uGfyxsDQlUHPjf_UGUeamS6nAACgYKAU4SARASFQHGX2Mihs5sf_2tYiFwfM2Z2r-mMxoVAUF8yKonAKsbtJGwoFAMBWnAW_m10076\n.youtube.com\tTRUE\t/\tFALSE\t1785065503\tSIDCC\tAKEyXzWRMQjmLykc7nvIL-6R8iKMyL8i6duuihQiptypFf-5JwennEZO0v7eUPRrx0uRIoS-\n.youtube.com\tTRUE\t/\tTRUE\t1785065503\t__Secure-1PSIDCC\tAKEyXzVJeRAWKCQGmiEsVf9FWtL9B5lx0bhhkt-ZkQsZXtCmm0ua-vOqpE2cJUZwpxm4_SEp\n.youtube.com\tTRUE\t/\tTRUE\t1785065503\t__Secure-3PSIDCC\tAKEyXzXETOLgOZI8eHb8LFTo-HasPcL6QzjGWOnxYCM4EX7FZkZxam5dcJCjbEXLTG920S-9cw\n.youtube.com\tTRUE\t/\tTRUE\t1777187802\tLOGIN_INFO\tAFmmF2swRQIgXMvw8-M7Bv0_nHWrDzc2E2I3ky3Su1-QnhT9tG_J1gECIQDZUF2YvFoUxvstvh9Ad9Mlz_C-f4VROzPBQUvNfuVJ0w:QUQ3MjNmejdtalppZ1QxdXJiUXN0S0lFcklJUklBdnRUaVVBUkdzWDVVLTNLRm5OdThLbUpsVWt4ZGFfRTZiUFlSY3NMZHg2WExlbGhFaWxhR2lxZ0ctdHdjTUVNTlJBU3p5M0dITEJHaXVqZkhwRHpqWWxaNEttWmhRVk9nX0xJbjByTjVWbjN5V2NEVDhLcExra1BLSUU2UEYzYmZkRFJn\n.youtube.com\tTRUE\t/\tTRUE\t1816601502\t__Secure-YT_TVFAS\tt\u003d484055\u0026s\u003d2\n.youtube.com\tTRUE\t/\tTRUE\t1769081502\tDEVICE_INFO\tChxOelE0TkRVek1ERTRORE16TmpBME5qUTNOZz09EJ75ksQGGIzJ+b4G\n.youtube.com\tTRUE\t/tv\tTRUE\t1786361502\t__Secure-YT_DERP\tCPXVl6Ue\n.facebook.com\tTRUE\t/\tTRUE\t1777195654\tsb\thoLeZ7E25pmYAVeNNzxcHnYA\n",
+      "id": 1,
+      "url": "Cookie Import at [Sat Jul 26 17:53:52 GMT+06:00 2025]"
+    }
+  ],
+  "templates": [
+    {
+      "content": "-f \"bestvideo[ext\u003dmp4][vcodec^\u003davc1][height\u003c\u003d1440]+bestaudio[ext\u003dm4a]/bestvideo[ext\u003dmp4]+bestaudio/best\"\n--concurrent-fragments 4 --merge-output-format mp4 --embed-thumbnail --embed-metadata --no-simulate --console-title --progress -o \"%(title)s - %(uploader)s.%(ext)s\" --sponsorblock-remove all\n--trim-filenames 100",
+      "id": 1,
+      "preferredCommandTemplate": false,
+      "title": "YouTube",
+      "urlRegex": [],
+      "useAsExtraCommand": false,
+      "useAsExtraCommandAudio": false,
+      "useAsExtraCommandDataFetching": true,
+      "useAsExtraCommandVideo": false
+    }
+  ]
+}
