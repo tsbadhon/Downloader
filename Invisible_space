@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Invisible & Zero-Width Characters (Click to Copy)</title>
+    <style>
+        body{font-family:system-ui,sans-serif;background:#0d0d0d;color:#eee;margin:0;padding:20px}
+        h1{text-align:center;color:#fff;margin:10px 0 5px;font-size:1.8em}
+        small{display:block;text-align:center;color:#999;margin-bottom:25px}
+        .container{max-width:860px;margin:0 auto;background:#1a1a1a;padding:22px;border-radius:18px;box-shadow:0 10px 40px rgba(0,0,0,.7)}
+        .item{display:flex;justify-content:space-between;align-items:center;background:#262626;padding:16px 20px;margin:9px 0;border-radius:12px;cursor:pointer;transition:.25s;user-select:none}
+        .item:hover{background:#0078ff;color:white;transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,120,255,.4)}
+        .name{font-weight:600;font-size:1.02em;flex:1}
+        .box{font-size:1.7em;background:rgba(255,255,255,.06);padding:10px 18px;border-radius:12px;min-width:100px;text-align:center}
+        #toast{position:fixed;top:20px;left:50%;transform:translateX(-50%);background:#00ff88;color:#000;padding:16px 32px;border-radius:14px;opacity:0;transition:opacity .3s;z-index:9999;font-weight:bold;font-size:1.2em}
+    </style>
+</head>
+<body>
+    <h1>All Invisible Characters</h1>
+    <small>Click any row → copies instantly • Works in Brave, Chrome, Soul, Firefox, everything</small>
+    <div class="container">
+
+        <!-- Whitespace & Formatting -->
+        <div class="item" data-char=" "><span class="name">En Quad</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Em Quad</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">En Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Em Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Three-Per-Em Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Four-Per-Em Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Six-Per-Em Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Figure Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Punctuation Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Thin Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Hair Space</span><span class="box"></span></div>
+        <div class="item" data-char="​"><span class="name">Zero Width Space</span><span class="box"></span></div>
+        <div class="item" data-char="‌"><span class="name">Zero Width Non-Joiner</span><span class="box"></span></div>
+        <div class="item" data-char="‍"><span class="name">Zero Width Joiner</span><span class="box"></span></div>
+        <div class="item" data-char="⁠"><span class="name">Word Joiner (Zero Width Non-Breaking Space)</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">No-Break Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Narrow No-Break Space</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Medium Mathematical Space</span><span class="box"></span></div>
+        <div class="item" data-char="　"><span class="name">Ideographic Space</span><span class="box"></span></div>
+
+        <!-- Directionality -->
+        <div class="item" data-char="‎"><span class="name">Left-to-Right Mark</span><span class="box"></span></div>
+        <div class="item" data-char="‏"><span class="name">Right-to-Left Mark</span><span class="box"></span></div>
+        <div class="item" data-char="‪"><span class="name">Left-to-Right Embedding</span><span class="box"></span></div>
+        <div class="item" data-char="‫"><span class="name">Right-to-Left Embedding</span><span class="box"></span></div>
+        <div class="item" data-char="‬"><span class="name">Pop Directional Formatting</span><span class="box"></span></div>
+        <div class="item" data-char="‭"><span class="name">Left-to-Right Override</span><span class="box"></span></div>
+        <div class="item" data-char="‮"><span class="name">Right-to-Left Override</span><span class="box"></span></div>
+
+        <!-- Invisible operators & controls -->
+        <div class="item" data-char="⁡"><span class="name">Function Application</span><span class="box"></span></div>
+        <div class="item" data-char="⁢"><span class="name">Invisible Times</span><span class="box"></span></div>
+        <div class="item" data-char="⁣"><span class="name">Invisible Separator</span><span class="box"></span></div>
+        <div class="item" data-char="⁤"><span class="name">Invisible Plus</span><span class="box"></span></div>
+        <div class="item" data-char="⁦"><span class="name">Left-to-Right Isolate</span><span class="box"></span></div>
+        <div class="item" data-char="⁧"><span class="name">Right-to-Left Isolate</span><span class="box"></span></div>
+        <div class="item" data-char="⁨"><span class="name">First Strong Isolate</span><span class="box"></span></div>
+        <div class="item" data-char="⁩"><span class="name">Pop Directional Isolate</span><span class="box"></span></div>
+
+        <!-- Line/Paragraph separators -->
+        <div class="item" data-char=" "><span class="name">Line Separator</span><span class="box"></span></div>
+        <div class="item" data-char=" "><span class="name">Paragraph Separator</span><span class="box"></span></div>
+
+        <!-- Hangul fillers -->
+        <div class="item" data-char="ㅤ"><span class="name">Hangul Filler (U+3164)</span><span class="box"></span></div>
+        <div class="item" data-char="ᅠ"><span class="name">Hangul Jungseong Filler</span><span class="box"></span></div>
+
+        <!-- Braille & misc -->
+        <div class="item" data-char="⠀"><span class="name">Braille Pattern Blank</span><span class="box"></span></div>
+        <div class="item" data-char="­"><span class="name">Soft Hyphen</span><span class="box"></span></div>
+
+        <!-- Variation Selectors (commonly used as invisible) -->
+        <div class="item" data-char="️"><span class="name">Variation Selector-16 (Emoji)</span><span class="box"></span></div>
+        <div class="item" data-char="︎"><span class="name">Variation Selector-15 (Text)</span><span class="box"></span></div>
+
+        <!-- Tab (technically visible in some editors) -->
+        <div class="item" data-char="	"><span class="name">Tab Character</span><span class="box"></span></div>
+
+    </div>
+
+    <div id="toast">Copied!</div>
+
+    <script>
+        const toast = document.getElementById('toast');
+        async function copy(text) {
+            try { await navigator.clipboard.writeText(text); }
+            catch (_) {
+                const ta = document.createElement('textarea');
+                ta.value = text; document.body.appendChild(ta);
+                ta.select(); document.execCommand('copy');
+                document.body.removeChild(ta);
+            }
+            toast.style.opacity = '1';
+            setTimeout(() => toast.style.opacity = '0', 1200);
+        }
+        document.querySelectorAll('.item').forEach(e => e.onclick = () => copy(e.dataset.char));
+    </script>
+</body>
+</html>
